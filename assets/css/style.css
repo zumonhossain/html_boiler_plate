@@ -1,0 +1,268 @@
+/*
+  Theme Name: Zumon Hossain
+  Author: zumonhossain.com
+  Support: zumonhossain100@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Google Fonts
+2. Theme Default
+3. Section Heading
+4. Header
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+*/
+
+/*
+==========================================
+    Google Fonts
+==========================================
+*/
+/* font-family: 'Rubik', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+/*
+==========================================
+    Theme Default Css
+==========================================
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--black);
+}
+
+:root {
+    --primary_color: #ffaa17;
+    --primary_text_color: #ffffff;
+    --white: #ffffff;
+    --black: #222429;
+    --text: #686a6f;
+    --hover: #ffaa17;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    color: var(--black);
+}
+
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--black);
+}
+
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+*::-moz-placeholder {
+    color: #555555;
+    opacity: 1;
+    font-size: 14px;
+}
+
+*::-webkit-input-placeholder {
+    color: #555555;
+    opacity: 1;
+    font-size: 14px;
+}
+
+*:-ms-input-placeholder {
+    color: #555555;
+    opacity: 1;
+    font-size: 14px;
+}
+
+*::-ms-input-placeholder {
+    color: #555555;
+    opacity: 1;
+    font-size: 14px;
+}
+
+*::placeholder {
+    color: #555555;
+    opacity: 1;
+    font-size: 14px;
+}
+
+*::-moz-selection {
+    background: #000000;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #000000;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #000000;
+    color: #fff;
+    text-shadow: none;
+}
+
+.section_padding {
+    padding: 120px 0px;
+}
+
+.section_padding_top {
+    padding-top: 120px;
+}
+
+.section_padding_bottom {
+    padding-bottom: 120px;
+}
+
+.section_top_space {
+    padding-top: 50px;
+}
+
+/*
+==============================================================
+    Common Button Css
+==============================================================
+*/
+
+
+/*
+==============================================================
+    Section Heading Css
+==============================================================
+*/
+.section_title {
+    position: relative;
+}
+
+.section_title h2 {
+    position: relative;
+    font-size: 40px;
+    display: block;
+    line-height: .9em;
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: 400;
+    margin-bottom: 0;
+}
+/*
+==============================================================
+    Header Area Css
+==============================================================
+*/
+
+/*
+==============================================================
+    Responsive Area Css
+==============================================================
+*/
+@media only screen and (min-width: 1400px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 350px) {
+
+}
